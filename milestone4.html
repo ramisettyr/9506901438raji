@@ -1,0 +1,91 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <style>
+        label {
+            width: 50px;
+            display: inline-block;
+        }
+
+        .p:after {
+            content: "*";
+            color: red;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="background-color:deepskyblue">
+    <h1 style="text-align:center;">REGISRAION FORM</h1>
+    <form>
+        <lable class="p">Name:</lable>
+        <input type="text" size="40"><br><br>
+        <lable class="p">RollNo:</lable>
+        <input type="text" size="40"><br><br>
+        <label for="email" class="p">Email:</label>
+        <input type="text" id="email" name="email" value="" size="40"><br><br>
+        <lable for="an" class="p">Aadhar Number:</lable>
+        <input type="text" id="an" name="an" value="" size="40"><br><br>
+        <lable class="p">DOB:</lable>
+        <input type="date" value=""><br><br>
+        <lable for="fn" class="p">Father Name:</lable>
+        <input type="text" id="fn" name="fn" value="" size="40"><br><br>
+        <lable>Gender:</lable>
+        <input type="radio" id="male" name="male" value="male">
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="male" value="female">
+        <lable for="female">Female</lable><br>
+        <label for="address">Address:</label>
+        <textarea rows="4" cols="35" name="comment" form=""></textarea><br><br>
+        <lable>Courses Completed:</lable><br>
+        <input type="checkbox" value="C">
+        <lable>C </lable><br>
+        <input type="checkbox" value="C">
+        <lable>C++ </lable><br>
+        <input type="checkbox" value="C">
+        <lable>JAVA</lable><br>
+        <input type="checkbox" value="C">
+        <lable>HTML</lable><br>
+        <input type="checkbox" value="C">
+        <lable>DBMS</lable><br>
+        <input type="checkbox" value="C">
+        <lable>PYTHON</lable><br><br>
+        <lable for="qualification" class="p">Qualification</lable>
+        <select>
+            <option selected disabled>Degree</option>
+            <option>B.Tech</option>
+            <option>BA</option>
+            <option>BBA</option>
+            <option>BE</option>
+            <option>BEF</option>
+            <option>B.Com</option>
+            <option>B.Sc</option>
+            <option>M.Tech</option>
+            <option>MFA</option>
+            <option>MBA</option>
+            <option>MA</option>
+            <option>Bachelor's Degree</option>
+            <option>Other</option>
+        </select><br><br>
+        <lable for="xth CGPA">Xth CGPA:</lable>
+        <input type="text"><br><br>
+        <lable for="XIIth CGPA">XIIth CGPA:</lable>
+        <input type="text"><br><br>
+        <lable class="p">Resume:</lable>
+        <input type="file"><br><br>
+        <lable class="p">Upload Photo:</lable>
+        <input type="file"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
